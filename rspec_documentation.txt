@@ -1,0 +1,30 @@
+
+User
+  validation test
+[32m    ensure first_name presence[0m
+[32m    ensure last_name presence[0m
+[32m    ensure email presence[0m
+[32m    should save successfully[0m
+
+Routing User
+[32m  has route to Index action[0m
+[32m  has route to Show action[0m
+[32m  has route to Create action[0m
+[32m  has route to Update action[0m
+[32m  has route to Destroy action[0m
+
+Users
+  GET /users
+[32m    index action has status  code 200[0m
+  GET /users/1
+[32m    show action has status  code 200[0m
+  POST /users
+[32m    create action has status  code 200[0m
+  PATCH/PUT /users/1
+[32m    update action has status  code 200[0m
+  /users/1
+[32m    Destroy action has status  code 200[0m
+
+Finished in 0.06053 seconds (files took 0.4728 seconds to load)
+[32m14 examples, 0 failures[0m
+
