@@ -1,24 +1,30 @@
-# README
+Rspec Test Cases
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Model--User
 
-Things you may want to cover:
+  validation test
+    ensure first_name presence
+    ensure last_name presence
+    ensure email presence
+    should save successfully
 
-* Ruby version
+    Routing User
+      has route to Index action
+      has route to Show action
+      has route to Create action
+      has route to Update action
+      has route to Destroy action
 
-* System dependencies
 
-* Configuration
+Users
+  GET /users
+    index action has status  code 200
+  GET /users/1
+    show action has status  code 200
+  POST /users
+    create action has status  code 200
+  PATCH/PUT /users/1
+    update action has status  code 200
+  /users/1
+    Destroy action has status  code 200
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
